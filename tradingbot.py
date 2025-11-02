@@ -7,9 +7,9 @@ from alpaca_trade_api import REST
 from timedelta import Timedelta 
 from finbert_utils import estimate_sentiment
 
-API_KEY = "YOUR API KEY" 
-API_SECRET = "YOUR API SECRET" 
-BASE_URL = "https://paper-api.alpaca.markets"
+API_KEY = "PKLHX78JAR8WGPJ4BG79" 
+API_SECRET = "0uew90OcJLdUkEmW5QVC1SXc57BZxgSxKp8a8nVs" 
+BASE_URL = "https://paper-api.alpaca.markets/v2"
 
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
@@ -18,7 +18,7 @@ ALPACA_CREDS = {
 }
 
 class MLTrader(Strategy): 
-    def initialize(self, symbol:str="SPY", cash_at_risk:float=.5): 
+    def initialize(self, symbol:str="SOL", cash_at_risk:float=.5): 
         self.symbol = symbol
         self.sleeptime = "24H" 
         self.last_trade = None 
@@ -77,17 +77,17 @@ class MLTrader(Strategy):
                 self.submit_order(order) 
                 self.last_trade = "sell"
 
-start_date = datetime(2020,1,1)
-end_date = datetime(2023,12,31) 
+start_date = datetime(2022,1,1)
+end_date = datetime(2025,3,20) 
 broker = Alpaca(ALPACA_CREDS) 
 strategy = MLTrader(name='mlstrat', broker=broker, 
-                    parameters={"symbol":"SPY", 
+                    parameters={"symbol":"SOL", 
                                 "cash_at_risk":.5})
 strategy.backtest(
     YahooDataBacktesting, 
     start_date, 
     end_date, 
-    parameters={"symbol":"SPY", "cash_at_risk":.5}
+    parameters={"symbol":"SOL", "cash_at_risk":.5}
 )
 # trader = Trader()
 # trader.add_strategy(strategy)

@@ -1,0 +1,17 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2023-11-03 09:30:00-04:00,MLTrader,a8f9aab207a2458b8dd9d3e934376174,SOL,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-11-03 09:30:00-04:00,MLTrader,a8f9aab207a2458b8dd9d3e934376174,SOL,buy,market,fill,1,gtc,0.0,1,stock,2.6500000953674316,18868.0,0.0
+2023-11-07 09:30:00-05:00,MLTrader,d0547452cba449b8bf1aaad43f31e4c7,SOL,sell_to_close,limit,canceled,1,day,0.0,1,stock,,,
+2023-11-07 09:30:00-05:00,MLTrader,275e2d99ce3342d889c5b0e7e23f0f56,SOL,sell_to_close,stop,fill,1,day,0.0,1,stock,2.51750009059906,18868.0,0.0
+2024-03-06 09:30:00-05:00,MLTrader,002817055541431c8902b5d60af947c1,SOL,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-03-06 09:30:00-05:00,MLTrader,002817055541431c8902b5d60af947c1,SOL,buy,market,fill,1,gtc,0.0,1,stock,2.0199999809265137,24752.0,0.0
+2024-03-07 09:30:00-05:00,MLTrader,4a6eedaa0cf9496a9c50f81a7d1122e6,SOL,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-03-07 09:30:00-05:00,MLTrader,4a6eedaa0cf9496a9c50f81a7d1122e6,SOL,buy,market,fill,1,gtc,0.0,1,stock,2.0299999713897705,24631.0,0.0
+2024-03-14 09:30:00-04:00,MLTrader,7e7947a990ce424aa85eb392e2b904d3,SOL,sell_to_close,limit,canceled,1,day,0.0,1,stock,,,
+2024-03-14 09:30:00-04:00,MLTrader,2bfe121e735542d1b74e66af45c5d2f6,SOL,sell_to_close,stop,fill,1,day,0.0,1,stock,1.918999981880188,24752.0,0.0
+2024-03-14 09:30:00-04:00,MLTrader,85341a736604437983997460ef9db859,SOL,sell_to_close,limit,canceled,1,day,0.0,1,stock,,,
+2024-03-14 09:30:00-04:00,MLTrader,84f6ca94862f440382774b36d0820d60,SOL,sell_to_close,stop,fill,1,day,0.0,1,stock,1.9284999728202818,24631.0,0.0
+2024-04-10 09:30:00-04:00,MLTrader,12a6a1e638cf428c9c25c03611757484,SOL,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-04-10 09:30:00-04:00,MLTrader,12a6a1e638cf428c9c25c03611757484,SOL,buy,market,fill,1,gtc,0.0,1,stock,2.1500000953674316,23256.0,0.0
+2024-04-12 09:30:00-04:00,MLTrader,c2fa6de09b014c2987ebd3b051398cbd,SOL,sell_to_close,limit,canceled,1,day,0.0,1,stock,,,
+2024-04-12 09:30:00-04:00,MLTrader,86abf2c0eb94425eab81022bbbbd6fc8,SOL,sell_to_close,stop,fill,1,day,0.0,1,stock,2.04250009059906,23256.0,0.0
